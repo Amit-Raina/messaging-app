@@ -1,0 +1,94 @@
+.Chat-window{
+    background-color: rgba(133, 100, 226, 0.568);
+    margin: 35px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgb(63, 62, 62);
+    
+}
+.Chat-window h3{
+    font-weight: 700;
+    text-align: center;
+}
+.Message-window{
+    padding: 6px;
+    border: 1px solid rgb(82, 57, 196);
+    overflow-y: scroll;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.Message-window::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+}
+  
+.Message-window::-webkit-scrollbar-track {
+    background:rgb(82, 57, 196);       /* color of the tracking area */
+}
+  
+.Message-window::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 57, 196);;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(255, 255, 255);  /* creates padding around scroll thumb */
+}
+
+.Type-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Type-message textarea{
+    padding-left: 5px;
+    width: 90%;
+    font-size: 14px;
+}
+.Type-message button{
+    border: 0;
+    margin-left: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(82, 57, 196);
+}
+
+.Scroll-position{
+    display:inline; 
+    float: right;
+    clear: right;
+    color: rgba(133, 100, 226, 0.568);
+}
+
+.options{
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.another-user{
+    border: 0;
+    height: 30px;
+    width: 170px;
+    background-color: rgb(29, 80, 9);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 9px;
+}
+
+.another-user:hover{
+    cursor: pointer;
+    background-color:  rgb(27, 185, 35);
+}
+
+.logout{
+    border: 0;
+    height: 30px;
+    width: 170px;
+    background-color: rgb(102, 11, 11);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 9px;
+}
+
+.logout:hover{
+    cursor: pointer;
+    background-color:  rgb(216, 54, 54);
+}

@@ -1,0 +1,51 @@
+.message-profile{
+    display: flex;
+}
+.Messsage-tile-name{
+    border: 0;
+    display: block; 
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.Messsage-tile-text{
+    border: 0;
+    display: block; 
+    margin-bottom: 5px;
+    background-color: rgb(79, 112, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 6px;
+    font-size: 14px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.user-message{
+    align-self: flex-end;
+    border: 0;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(59, 59, 59);
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 13px;
+    padding-left: 5px;
+    font-size: 14px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+    
